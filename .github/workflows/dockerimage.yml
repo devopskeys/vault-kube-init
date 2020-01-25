@@ -16,9 +16,9 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@2.12
       with:
         # The name of the image you would like to push
-        name: devops-keys
+        name: vault-kube-init
         # The login username for the registry
-        username: devops-keys
+        username: devopskeys
         # The login password for the registry
         password:  ${{ secrets.DOCKER_PASSWORD }}
         # Use registry for pushing to a custom registry
