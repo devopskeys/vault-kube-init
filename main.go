@@ -24,7 +24,7 @@ func main() {
 
 	message := map[string]interface{}{
 		"jwt":  dat,
-		"role": "demo",
+		"role": "exampleapp",
 	}
 
 	bytesRepresentation, err := json.Marshal(message)
