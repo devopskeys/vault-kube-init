@@ -20,7 +20,7 @@ jobs:
         # The login username for the registry
         username: devops-keys
         # The login password for the registry
-        password: 
+        password:  ${{ secrets.DOCKER_PASSWORD }}
         # Use registry for pushing to a custom registry
         registry: # optional
         # Use snapshot to push an additional image
