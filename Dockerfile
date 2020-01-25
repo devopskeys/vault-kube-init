@@ -5,4 +5,3 @@ RUN go mod download
 COPY . .
 RUN go build -o vault .
 CMD ["./vault"]
-© 2020 GitHub, Inc.
